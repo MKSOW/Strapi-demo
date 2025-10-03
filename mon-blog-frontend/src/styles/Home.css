@@ -1,0 +1,36 @@
+.home-container {
+  padding: 20px;
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.article-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  transition: transform 0.2s;
+}
+
+.article-card:hover {
+  transform: scale(1.02);
+}
+
+.article-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.article-title {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.article-meta {
+  font-size: 14px;
+  color: #555;
+}
